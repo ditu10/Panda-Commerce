@@ -25,6 +25,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
+                    <input class="form-control  w-50 mx-auto rounded-pill" type="search" placeholder="Search" aria-label="Search">
                     <ul class="navbar-nav">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -138,7 +139,7 @@
 
         <!-- shoes gallery -->
 
-        <div class="container mt-5">
+        <div id="shoes" class="container mt-5">
             <h1>Shoes</h1>
             <div class="row g-4">
                 <div class="col-lg-4">
@@ -186,7 +187,7 @@
         </div>
 
         <!-- bags gallery  -->
-        <div class="container mt-5">
+        <div id="bagpacks" class="container mt-5">
             <h1>Bagpack</h1>
             <div class="row g-4">
                 <div class="col-lg-4">
@@ -234,25 +235,21 @@
         </div>
 
 
-        <section class="container text-center p-5" style="background-color: #FFF2F1;">
-            <h2>LET'S STAY IN TOUCH</h2>
-            <p style="color: #707070;">Get updates on sales specials and more</p>
-
-            <div class="row">
-                
-                <div class="offset-3 col-6">
-                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                  <span><div class="btn my-button">Submit</div></span>
-                </div>
-               
-                
-              </div>
-        </section>
+      
 
     </main>
 
-    <footer>
+    <footer class="container-fluid text-center p-5" style="background-color: #FFF2F1;">
+        <h2>LET'S STAY IN TOUCH</h2>
+        <p style="color: #707070;">Get updates on sales specials and more</p>
 
+      
+        <div class="input-group mb-3 w-50 mx-auto">
+          <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn my-button" type="button" id="button-addon2">Submit</button>
+        </div>
+
+        <small class="m-5">Copyright &copy All rights are reserved by Panda</small>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
