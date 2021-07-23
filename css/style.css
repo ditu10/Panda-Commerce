@@ -1,0 +1,12 @@
+
+
+.price{
+    color: #FF136F;
+}
+.my-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 8px;
+}
